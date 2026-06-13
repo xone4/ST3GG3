@@ -19,20 +19,6 @@
 
 👉 **Hosted site: [ste.gg](https://ste.gg)**
 
-[![PyPI](https://img.shields.io/pypi/v/stegg?color=green&label=pip%20install%20stegg)](https://pypi.org/project/stegg/)
-[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL_3.0-purple.svg)](https://github.com/elder-plinius/st3gg/blob/main/LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![100+ Examples](https://img.shields.io/badge/Examples-100%2B_files-purple.svg)](https://github.com/elder-plinius/st3gg/tree/main/examples)
-
-
-</div>
-
-<p align="center">
-<img src="examples/st3gg_banner.png" alt="ST3GG Banner" width="600">
-<br><sub><i>This image contains hidden data. Can you find it?</i></sub>
-</p>
-
 ---
 
 ## ⊰ What Is ST3GG? ⊱
