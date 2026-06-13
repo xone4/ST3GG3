@@ -25,16 +25,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![100+ Examples](https://img.shields.io/badge/Examples-100%2B_files-purple.svg)](https://github.com/elder-plinius/st3gg/tree/main/examples)
 
-```
-       __                                    .--.
-      /  '-.                               .'    '.
-     / .-. |  ⊰ ev͏er͏y pi͏x͏el͏ ha͏s a͏ story͏ ⊱ /  .--.  \
-    /.'   \|     you just can't see it    |  /    \  |
-   //   |\  \                             | |      | |
-  ||   | \  |    ⊰ LOVE PLINY ⊱          |  \    /  |
- /||   |  \ |                              \  '--'  /
-/ ||__/   \/                                '.____..'
-```
 
 </div>
 
