@@ -2,11 +2,6 @@
 
 Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode** and other decoder tools without having to encode files yourself.
 
-All new examples (Plinian divider series) encode the secret message:
-```
-
-```
-
 ## Original Examples
 
 | File | Technique | What's Hidden |
