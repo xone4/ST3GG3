@@ -15,7 +15,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_invisible_ink.txt` | Unicode tag characters | Invisible ink using U+E0000 range |
 | `example_audio_lsb.wav` | Audio LSB | Message in least significant bits of audio samples |
 
-## Image Formats (Plinian Divider)
+## Image Formats
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -31,7 +31,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_metadata.webp` | WebP EXIF metadata | Plinian divider in EXIF ImageDescription |
 | `example_lsb.webp` | WebP lossless LSB | Plinian divider in pixel LSBs |
 
-## Document & Structured Data Formats (Plinian Divider)
+## Document & Structured Data Formats
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -44,7 +44,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_hidden.rtf` | RTF hidden text groups | Plinian divider in \\v hidden text, info fields, bookmarks |
 | `example_hidden.md` | Markdown HTML comments + zero-width | Plinian divider in HTML comments, link references, zero-width chars |
 
-## Audio, Binary & Archive Formats (Plinian Divider)
+## Audio, Binary & Archive Formats 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -58,7 +58,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_hidden.mid` | MIDI SysEx + text event | Plinian divider in SysEx message and MIDI text event |
 | `example_hidden.pcap` | PCAP packet payloads | Plinian divider split across UDP packet payloads |
 
-## Code & Config Formats (Plinian Divider)
+## Code & Config Formats 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -80,7 +80,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 4. Enable **Exhaustive Mode** for the most thorough analysis
 5. Run the agent and watch it find the hidden data
 
-## Unicode & Text Tricks (Plinian Divider)
+## Unicode & Text Tricks 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -90,7 +90,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_confusable_whitespace.txt` | Unicode space variants | Plinian divider in en/em/thin space substitution (2 bits per space) |
 | `example_emoji_substitution.txt` | Emoji pair encoding | Plinian divider in emoji choice (🌑=0 vs 🌚=1, etc.) |
 
-## Network Protocol Steganography (Plinian Divider)
+## Network Protocol Steganography 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -99,7 +99,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_tcp_covert.pcap` | TCP covert channel | Plinian divider in TCP ISN + timestamp option fields |
 | `example_http_headers.pcap` | HTTP header smuggling | Plinian divider in custom X- headers, cookies |
 
-## Image Format Tricks (Plinian Divider)
+## Image Format Tricks 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -107,7 +107,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_filter_encoding.png` | PNG scanline filter types | Plinian divider in per-scanline filter byte choice (None=0, Sub=1) |
 | `example_alpha_lsb.png` | Alpha channel LSB only | Plinian divider in transparency channel LSBs (RGB untouched) |
 
-## Miscellaneous Techniques (Plinian Divider)
+## Miscellaneous Techniques 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -115,7 +115,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_capitalization.txt` | Letter case encoding | Plinian divider in word-initial capitalization (lower=0, upper=1) |
 | `example_silence_interval.wav` | Audio silence timing | Plinian divider in silence gap durations (short=0, long=1) |
 
-## More Unicode & Text Tricks (Plinian Divider)
+## More Unicode & Text Tricks 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -128,7 +128,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_word_choice.txt` | Synonym substitution | Plinian divider in synonym A (=0) vs synonym B (=1) selection |
 | `example_misspelling.txt` | Typo patterns | Plinian divider in correct (=0) vs deliberately misspelled (=1) words |
 
-## More Network Protocol Steganography (Plinian Divider)
+## More Network Protocol Steganography 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -141,7 +141,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_multibase.txt` | Multi-base encoding | Plinian divider in base16, base32, base64, and base85 |
 | `example_morse.txt` | Morse code | Plinian divider encoded in dot-dash Morse alphabet |
 
-## Advanced Image Techniques (Plinian Divider)
+## Advanced Image Techniques 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -155,7 +155,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_ycbcr.png` | YCbCr color space | Plinian divider in Cb chrominance channel LSB after RGB conversion |
 | `example_png_chunks_custom.png` | PNG custom chunks | Plinian divider in private stEg/sT3g ancillary PNG chunks |
 
-## More Document & Archive Techniques (Plinian Divider)
+## More Document & Archive Techniques 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -168,7 +168,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_emoji_skin_tone.txt` | Emoji skin tone selectors | Plinian divider in skin tone modifier choice (4 tones = 2 bits) |
 | `example_punycode.txt` | Punycode/IDN domains | Plinian divider bytes encoded as internationalized domain names |
 
-## Final Techniques (Plinian Divider)
+## Final Techniques 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -177,7 +177,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_scanline_filter.png` | PNG scanline filter abuse | Plinian divider in per-row filter byte choice (None=0, Sub=1) |
 | `example_qr_steg.txt` | QR code data encoding | Plinian divider in QR data bit pattern + error correction analysis |
 
-## Audio DSP Techniques (Plinian Divider)
+## Audio DSP Techniques 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -186,7 +186,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_spread_spectrum.wav` | Spread spectrum (DSSS) | Plinian divider spread via PN sequence at low amplitude |
 | `example_quantization_noise.wav` | Quantization noise | Plinian divider in 2nd LSB of 16-bit audio samples |
 
-## Image DSP Techniques (Plinian Divider)
+## Image DSP Techniques 
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
@@ -196,7 +196,7 @@ Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode*
 | `example_dwt_haar.png` | DWT Haar wavelet | Plinian divider in HH high-frequency wavelet subband |
 | `example_subsampling.png` | Chroma subsampling | Plinian divider in 4:2:0 vs 4:4:4 chroma pattern per 2x2 block |
 
-## Misc Techniques (Plinian Divider)
+## Misc Techniques
 
 | File | Technique | What's Hidden |
 |------|-----------|---------------|
