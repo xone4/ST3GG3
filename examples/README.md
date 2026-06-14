@@ -1,10 +1,10 @@
-# ST3GG Example Files
+# ST3GG3 Example Files
 
 Pre-encoded steganography samples for testing the **Agent tab's Exhaustive Mode** and other decoder tools without having to encode files yourself.
 
 All new examples (Plinian divider series) encode the secret message:
 ```
-⊰•-•✧•-•-⦑/L\O/V\E/\P/L\I/N\Y/⦒-•-•✧•-•⊱
+
 ```
 
 ## Original Examples
